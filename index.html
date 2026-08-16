@@ -1,72 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>About</title>
-  <style>
-    :root {
-      --bg: #add8e6; /* lightblue */
-      --accent: #ff08ff;
-      --text: #222;
-      --max-width: 900px;
-    }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <style>
+      body {
+        background-color: lightblue;
+        text-align: center;
+        font-family: Arial, sans-serif;
+      }
 
-    body {
-      background-color: var(--bg);
-      color: var(--text);
-      text-align: center;
-      font-family: Arial, Helvetica, sans-serif;
-      margin: 0;
-      padding: 2rem;
-      -webkit-font-smoothing: antialiased;
-    }
+      p {
+        font-size: 30px;
+      }
 
-    main { max-width: var(--max-width); margin: 0 auto; }
-
-    h1 { font-size: 2.25rem; margin: 0 0 0.5rem; }
-    h2 { font-size: 1.5rem; margin: 1.5rem 0 0.5rem; }
-
-    p { font-size: 1.125rem; line-height: 1.4; margin: 0.5rem 0; }
-
-    .alpha-button {
-      display: inline-block;
-      background: var(--accent);
-      color: #fff;
-      padding: 12px 20px;
-      border-radius: 20px;
-      text-decoration: none;
-      margin: 10px 0;
-      font-weight: 600;
-      transition: transform 120ms ease, box-shadow 120ms ease;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.12);
-    }
-    .alpha-button:hover,
-    .alpha-button:focus { transform: translateY(-2px); box-shadow: 0 6px 12px rgba(0,0,0,0.16); }
-
-    .contact { margin-top: 1rem; }
-
-    @media (max-width: 480px) {
-      h1 { font-size: 1.75rem; }
-      h2 { font-size: 1.25rem; }
-      p { font-size: 1rem; }
-    }
-  </style>
-</head>
-<body>
-  <main>
+      .button {
+        display: inline-block;
+        background: rgb(255, 8, 255);
+        color: white;
+        padding: 12px 20px;
+        border-radius: 20px;
+        text-decoration: none;
+        margin: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
     <h1>About</h1>
     <h2>Welcome to Our Page</h2>
     <p>We are a team of passionate individuals dedicated to spreading the gospel and serving our community.</p>
 
-    <h2>Our Mission</h2>
+    <h1>Our Mission</h1>
     <p>Our mission is to share the love of Christ and make a positive impact in the lives of those around us.</p>
 
     <h2>Contact Us</h2>
-    <p class="contact">If you have any questions or would like to get involved, please reach out to us at</p>
-    <p>
-      <a class="alpha-button" href="https://www.alpha.org" target="_blank" rel="noopener noreferrer">Visit Alpha.org</a>
-    </p>
-  </main>
-</body>
+    <p>If you have any questions or would like to get involved, please reach out to us at:</p>
+    <a class="button" href="https://www.alpha.org" target="_blank">Alpha.org</a>
+  </body>
 </html>
+
